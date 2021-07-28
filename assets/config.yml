@@ -1,0 +1,106 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+title: "Sivas Fen Lisesi"
+subtitle: "Ana Sayfa"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<a href="https://sflbilimveteknoloji.co">SFL Bilim Ve Tenoloji Kulübü </a> <b>|</b> 2021' # set false if you want to hide it.
+
+# Optional theme customization
+theme: dark
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
+
+# Optional message
+message:
+  #url: https://b4bz.io
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "Sistem Test Aşamasındadır !"
+  icon: "fa fa-grin"
+  content: "Web sistemlerimiz geliştirme aşamasındadır."
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Meb Site"
+    icon: "fab fa-firefox-browser"
+    url: "https://github.com/bastienwirtz/homer"
+    target: "_blank" # optional html a tag target attribute
+
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Eğitim Sistemleri"
+    icon: "fas fa-school"
+    items:
+      - name: "Canlı Ders Sistemi"
+        logo: "logo.png"
+        subtitle: ""
+        tag: ""
+        url: "http://canlikatilim.com/"
+        target: "_blank"
+  - name: "Yeni Öğrenciler"
+    icon: "fas fa-user-friends"
+    items:
+      - name: "Wiki"
+        icon: "fas fa-book"
+        subtitle: ""
+        tag: ""
+        url: "https://sivas-fen-lisesi.github.io/wiki/"
+        target: "_blank"
+  - name: "Sistemler"
+    icon: "fab fa-linux"
+    items:
+      - name: "Sistem Durumu"
+        icon: "fas fa-cogs"
+        subtitle: ""
+        tag: ""
+        url: "https://sivas-fen-lisesi.github.io/sistemdurumu/"
+        target: "_blank"
+  - name: "Blog"
+    icon: "fas fa-user-friends"
+    items:
+      - name: "Blog"
+        icon: "fas fa-book"
+        subtitle: ""
+        tag: ""
+        url: "https://sivas-fen-lisesi.github.io/blog/"
+        target: "_blank"
+  - name: "Kulüpler"
+    icon: "fas fa-user-friends"
+    items:
+      - name: "Bilim ve Teknoloji Kulübü"
+        logo: "SFL-Science-Club-Logo.png"
+        subtitle: ""
+        tag: ""
+        url: "https://sflbilimveteknoloji.co"
+        target: "_blank"
